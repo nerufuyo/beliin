@@ -10,7 +10,7 @@ final List introductionContent = [
         'Bisa beli banyak barang tanpa harus repot dan kesusahan membawa barang.',
   },
   {
-    'title': 'Aplikasi yang mudah digunakan',
-    'description': 'Mudah digunakan, sangat cocok untuk semua kalangan.',
+    'title': 'Aplikasi siap digunakan',
+    'description': 'Ayo mulai belanja dengan aplikasi Beliin sekarang juga!',
   },
 ];

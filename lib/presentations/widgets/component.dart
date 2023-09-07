@@ -44,3 +44,45 @@ InkWell customButton(
     ),
   );
 }
+
+InkWell customButtonWithIcon(
+  BuildContext context, {
+  required customButtonOnTapEvent,
+  customButtonWidth,
+  customButtonColor,
+  customButtonIcon,
+  customButtonIconColor,
+  customButtonText,
+  customButtonTextColor,
+}) {
+  return InkWell(
+    onTap: customButtonOnTapEvent,
+    child: Container(
+      width: customButtonWidth ?? MediaQuery.of(context).size.width * 0.5,
+      decoration: BoxDecoration(
+        color: customButtonColor ?? primaryColor100,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      padding: const EdgeInsets.symmetric(
+        horizontal: 16,
+        vertical: 10,
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Icon(
+            customButtonIcon ?? Icons.facebook_rounded,
+            color: customButtonIconColor ?? secondaryColor100,
+          ),
+          customText(
+            textValue: customButtonText ?? 'Text Button',
+            customStyle: bodyText2.copyWith(
+              color: customButtonTextColor ?? secondaryColor100,
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
+}
