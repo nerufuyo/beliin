@@ -1,0 +1,652 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Cotton T-Shirt",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "T-Shirt",
+            "color": [
+                "White",
+                "Black",
+                "Blue"
+            ],
+            "description": "A comfortable cotton t-shirt for everyday wear.",
+            "stock": 100,
+            "price_idr": 150000,
+            "image": "",
+            "rating": 4.5,
+            "customers": [
+                {
+                    "name": "John Doe",
+                    "review": "Great fit and quality. Love it!",
+                    "rate": 5
+                },
+                {
+                    "name": "Jane Smith",
+                    "review": "Nice shirt, but a bit expensive.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Denim Jeans",
+            "size": [
+                "28",
+                "30",
+                "32",
+                "34"
+            ],
+            "category": "Pants",
+            "color": [
+                "Blue",
+                "Black"
+            ],
+            "description": "Classic denim jeans for a timeless look.",
+            "stock": 75,
+            "price_idr": 250000,
+            "image": "",
+            "rating": 4.0,
+            "customers": [
+                {
+                    "name": "Emily Johnson",
+                    "review": "Perfect fit! I wear them all the time.",
+                    "rate": 5
+                },
+                {
+                    "name": "Michael Brown",
+                    "review": "Good quality, but a bit tight around the waist.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Summer Dress",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Dress",
+            "color": [
+                "Yellow",
+                "Floral",
+                "White"
+            ],
+            "description": "A stylish and comfortable summer dress.",
+            "stock": 50,
+            "price_idr": 180000,
+            "image": "",
+            "rating": 4.7,
+            "customers": [
+                {
+                    "name": "Sophia Lee",
+                    "review": "Lovely dress! Perfect for summer outings.",
+                    "rate": 5
+                },
+                {
+                    "name": "David Clark",
+                    "review": "Nice design, but the fabric feels a bit cheap.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hooded Sweatshirt",
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "category": "Sweatshirt",
+            "color": [
+                "Gray",
+                "Navy",
+                "Black"
+            ],
+            "description": "A warm and cozy hooded sweatshirt for chilly days.",
+            "stock": 80,
+            "price_idr": 200000,
+            "image": "",
+            "rating": 4.4,
+            "customers": [
+                {
+                    "name": "Olivia Williams",
+                    "review": "Super comfy! I wear it all winter.",
+                    "rate": 5
+                },
+                {
+                    "name": "Daniel Martinez",
+                    "review": "Good quality, but the sleeves are a bit long for me.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Leather Jacket",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "category": "Jacket",
+            "color": [
+                "Black",
+                "Brown"
+            ],
+            "description": "A stylish leather jacket for a rugged look.",
+            "stock": 60,
+            "price_idr": 350000,
+            "image": "",
+            "rating": 4.6,
+            "customers": [
+                {
+                    "name": "Ethan Wilson",
+                    "review": "Awesome jacket! Looks great and keeps me warm.",
+                    "rate": 5
+                },
+                {
+                    "name": "Ava Davis",
+                    "review": "Expensive, but worth it for the style.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Polo Shirt",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Shirt",
+            "color": [
+                "Red",
+                "Blue",
+                "Green"
+            ],
+            "description": "A classic polo shirt for a smart-casual look.",
+            "stock": 120,
+            "price_idr": 120000,
+            "image": "",
+            "rating": 4.2,
+            "customers": [
+                {
+                    "name": "Mia Anderson",
+                    "review": "Nice fit and comfortable. Good for office wear.",
+                    "rate": 4
+                },
+                {
+                    "name": "William Turner",
+                    "review": "Decent quality, but I expected more.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Flannel Shirt",
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "category": "Shirt",
+            "color": [
+                "Plaid",
+                "Red",
+                "Green"
+            ],
+            "description": "A cozy flannel shirt for a rustic look.",
+            "stock": 90,
+            "price_idr": 180000,
+            "image": "",
+            "rating": 4.3,
+            "customers": [
+                {
+                    "name": "Liam Harris",
+                    "review": "Love the warmth and style of this shirt.",
+                    "rate": 5
+                },
+                {
+                    "name": "Ella White",
+                    "review": "Good for outdoor activities, but it shrunk after washing.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Sweater",
+            "size": [
+                "XS",
+                "S",
+                "M"
+            ],
+            "category": "Sweater",
+            "color": [
+                "Gray",
+                "Navy",
+                "Pink"
+            ],
+            "description": "A comfortable sweater for casual wear.",
+            "stock": 70,
+            "price_idr": 160000,
+            "image": "",
+            "rating": 4.1,
+            "customers": [
+                {
+                    "name": "Noah Baker",
+                    "review": "Cozy and stylish, perfect for cool evenings.",
+                    "rate": 5
+                },
+                {
+                    "name": "Avery Taylor",
+                    "review": "Good value for the price, but it pills easily.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Khaki Pants",
+            "size": [
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "category": "Pants",
+            "color": [
+                "Khaki",
+                "Brown",
+                "Beige"
+            ],
+            "description": "Versatile khaki pants for a polished look.",
+            "stock": 85,
+            "price_idr": 220000,
+            "image": "",
+            "rating": 4.4,
+            "customers": [
+                {
+                    "name": "Isabella Carter",
+                    "review": "Great fit and quality. My go-to for work.",
+                    "rate": 5
+                },
+                {
+                    "name": "James Wright",
+                    "review": "Nice pants, but a bit pricey.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Casual Shorts",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Shorts",
+            "color": [
+                "Blue",
+                "Khaki",
+                "Black"
+            ],
+            "description": "Comfortable casual shorts for a relaxed look.",
+            "stock": 65,
+            "price_idr": 90000,
+            "image": "",
+            "rating": 4.0,
+            "customers": [
+                {
+                    "name": "Sophie Brown",
+                    "review": "Great for hot days, but the fit could be better.",
+                    "rate": 4
+                },
+                {
+                    "name": "Alexander Wilson",
+                    "review": "Affordable and decent quality.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Striped Blouse",
+            "size": [
+                "XS",
+                "S",
+                "M"
+            ],
+            "category": "Blouse",
+            "color": [
+                "Blue/White",
+                "Red/White",
+                "Black/White"
+            ],
+            "description": "A stylish striped blouse for a chic look.",
+            "stock": 55,
+            "price_idr": 140000,
+            "image": "",
+            "rating": 4.3,
+            "customers": [
+                {
+                    "name": "Lucas Evans",
+                    "review": "Love the design and quality. Fits perfectly.",
+                    "rate": 5
+                },
+                {
+                    "name": "Zoe Turner",
+                    "review": "Nice blouse, but a bit overpriced.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Sportswear Leggings",
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Leggings",
+            "color": [
+                "Black",
+                "Gray",
+                "Pink"
+            ],
+            "description": "Stretchy leggings for your workout sessions.",
+            "stock": 70,
+            "price_idr": 95000,
+            "image": "",
+            "rating": 4.5,
+            "customers": [
+                {
+                    "name": "Lily Jackson",
+                    "review": "Perfect for workouts! Very comfortable.",
+                    "rate": 5
+                },
+                {
+                    "name": "Henry Baker",
+                    "review": "Great value for money. Good for exercise.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "V-Neck Sweater",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Sweater",
+            "color": [
+                "Navy",
+                "Gray",
+                "Beige"
+            ],
+            "description": "A classic V-neck sweater for a polished look.",
+            "stock": 75,
+            "price_idr": 170000,
+            "image": "",
+            "rating": 4.2,
+            "customers": [
+                {
+                    "name": "Chloe Harris",
+                    "review": "Stylish and comfortable. Good for office wear.",
+                    "rate": 4
+                },
+                {
+                    "name": "Jackson White",
+                    "review": "Decent quality, but could be warmer.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Sleeveless Blouse",
+            "size": [
+                "XS",
+                "S",
+                "M"
+            ],
+            "category": "Blouse",
+            "color": [
+                "Pink",
+                "White",
+                "Black"
+            ],
+            "description": "A sleeveless blouse for a chic and breezy look.",
+            "stock": 65,
+            "price_idr": 120000,
+            "image": "",
+            "rating": 4.4,
+            "customers": [
+                {
+                    "name": "Mason Taylor",
+                    "review": "Love the design and comfort. Perfect for summer.",
+                    "rate": 5
+                },
+                {
+                    "name": "Layla Turner",
+                    "review": "Affordable and stylish.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Slim-Fit Suit",
+            "size": [
+                "36R",
+                "38R",
+                "40R",
+                "42R"
+            ],
+            "category": "Suit",
+            "color": [
+                "Navy",
+                "Black",
+                "Charcoal"
+            ],
+            "description": "A stylish slim-fit suit for formal occasions.",
+            "stock": 40,
+            "price_idr": 650000,
+            "image": "",
+            "rating": 4.6,
+            "customers": [
+                {
+                    "name": "Grace Davis",
+                    "review": "Impressive suit! Fits perfectly and looks sharp.",
+                    "rate": 5
+                },
+                {
+                    "name": "Samuel Evans",
+                    "review": "Great suit for the price, but needed some alterations.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Cargo Pants",
+            "size": [
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "category": "Pants",
+            "color": [
+                "Khaki",
+                "Green",
+                "Black"
+            ],
+            "description": "Functional cargo pants for outdoor activities.",
+            "stock": 70,
+            "price_idr": 140000,
+            "image": "",
+            "rating": 4.0,
+            "customers": [
+                {
+                    "name": "Evelyn Johnson",
+                    "review": "Good for hiking, but a bit bulky for everyday wear.",
+                    "rate": 4
+                },
+                {
+                    "name": "Liam Turner",
+                    "review": "Decent quality, but not the best fit.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Hiking Boots",
+            "size": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "category": "Boots",
+            "color": [
+                "Brown",
+                "Black",
+                "Gray"
+            ],
+            "description": "Durable hiking boots for outdoor adventures.",
+            "stock": 50,
+            "price_idr": 280000,
+            "image": "",
+            "rating": 4.3,
+            "customers": [
+                {
+                    "name": "Aiden Carter",
+                    "review": "Excellent boots for hiking! Very comfortable.",
+                    "rate": 5
+                },
+                {
+                    "name": "Ella Martin",
+                    "review": "Good quality, but took some time to break in.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Cotton Chinos",
+            "size": [
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "category": "Pants",
+            "color": [
+                "Navy",
+                "Khaki",
+                "Gray"
+            ],
+            "description": "Versatile cotton chinos for a casual or semi-formal look.",
+            "stock": 90,
+            "price_idr": 160000,
+            "image": "",
+            "rating": 4.2,
+            "customers": [
+                {
+                    "name": "Mila Harris",
+                    "review": "Comfortable and stylish. Great for office or casual wear.",
+                    "rate": 5
+                },
+                {
+                    "name": "Jack Wilson",
+                    "review": "Decent quality, but wrinkles easily.",
+                    "rate": 3
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Rain Jacket",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "category": "Jacket",
+            "color": [
+                "Yellow",
+                "Black",
+                "Navy"
+            ],
+            "description": "Waterproof rain jacket for staying dry in wet weather.",
+            "stock": 60,
+            "price_idr": 220000,
+            "image": "",
+            "rating": 4.5,
+            "customers": [
+                {
+                    "name": "Sophia Martin",
+                    "review": "Keeps me completely dry in heavy rain. Excellent!",
+                    "rate": 5
+                },
+                {
+                    "name": "Ethan White",
+                    "review": "Good quality, but a bit bulky.",
+                    "rate": 4
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Sweatpants",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "category": "Pants",
+            "color": [
+                "Black",
+                "Gray",
+                "Navy"
+            ],
+            "description": "Comfortable sweatpants for lounging or workouts.",
+            "stock": 80,
+            "price_idr": 80000,
+            "image": "",
+            "rating": 4.1,
+            "customers": [
+                {
+                    "name": "Noah Wilson",
+                    "review": "Very comfortable! Great for relaxing at home.",
+                    "rate": 5
+                },
+                {
+                    "name": "Emma Turner",
+                    "review": "Affordable and good for workouts.",
+                    "rate": 4
+                }
+            ]
+        }
+    ]
+}
