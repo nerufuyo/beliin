@@ -1,7 +1,7 @@
 import 'package:beliin/common/constant.dart';
 import 'package:beliin/common/pallets.dart';
 import 'package:beliin/common/typography.dart';
-import 'package:beliin/presentations/screens/authentication_screen.dart';
+import 'package:beliin/presentations/screens/auth/authentication_screen.dart';
 import 'package:beliin/presentations/widgets/component.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

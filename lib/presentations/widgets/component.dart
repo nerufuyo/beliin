@@ -63,13 +63,10 @@ InkWell customButtonWithIcon(
         color: customButtonColor ?? primaryColor100,
         borderRadius: BorderRadius.circular(8),
       ),
-      padding: const EdgeInsets.symmetric(
-        horizontal: 16,
-        vertical: 10,
-      ),
+      padding: const EdgeInsets.all(16),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Icon(
             customButtonIcon ?? Icons.facebook_rounded,
@@ -77,11 +74,88 @@ InkWell customButtonWithIcon(
           ),
           customText(
             textValue: customButtonText ?? 'Text Button',
-            customStyle: bodyText2.copyWith(
+            customStyle: subHeading2.copyWith(
               color: customButtonTextColor ?? secondaryColor100,
             ),
           ),
         ],
+      ),
+    ),
+  );
+}
+
+Row customDivider(BuildContext context,
+    {customLeftWidth, customRightWidth, customTextValue}) {
+  return Row(
+    crossAxisAlignment: CrossAxisAlignment.center,
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children: [
+      Container(
+        width: customLeftWidth ?? MediaQuery.of(context).size.width * 0.25,
+        height: 1,
+        color: Colors.black.withOpacity(.5),
+      ),
+      customText(
+        textValue: customTextValue ?? 'Custom Divider',
+        customStyle: subHeading2.copyWith(
+          color: Colors.black.withOpacity(.5),
+        ),
+      ),
+      Container(
+        width: customRightWidth ?? MediaQuery.of(context).size.width * 0.25,
+        height: 1,
+        color: Colors.black.withOpacity(.5),
+      ),
+    ],
+  );
+}
+
+TextField customTextField({
+  required customController,
+  customMaxLines,
+  customObscureText,
+  customKeyboardType,
+  customHintText,
+  customSuffix,
+  customErrorText,
+  customOnChanged,
+}) {
+  return TextField(
+    controller: customController,
+    maxLines: customMaxLines ?? 1,
+    obscureText: customObscureText ?? false,
+    keyboardType: customKeyboardType ?? TextInputType.text,
+    onChanged: customOnChanged,
+    decoration: InputDecoration(
+      hintText: customHintText ?? 'Put your text here',
+      suffix: customSuffix,
+      errorText: customErrorText,
+      errorStyle: bodyText1.copyWith(
+        color: Colors.red,
+      ),
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: primaryColor100,
+          width: 2,
+        ),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: BorderSide(
+          color: Colors.black.withOpacity(.25),
+          width: 2,
+        ),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: Colors.red,
+          width: 2,
+        ),
       ),
     ),
   );

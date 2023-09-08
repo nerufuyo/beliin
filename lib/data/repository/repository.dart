@@ -6,7 +6,8 @@ import 'package:flutter/services.dart';
 
 class Repository {
   Future<List<Product>> getAllProducts() async {
-    final response = await rootBundle.loadString('lib/assets/product.json');
+    final response =
+        await rootBundle.loadString('lib/assets/jsons/product.json');
 
     try {
       if (response.isNotEmpty) {
@@ -22,7 +23,8 @@ class Repository {
   }
 
   Future<Product> getProductById(int id) async {
-    final response = await rootBundle.loadString('lib/assets/product.json');
+    final response =
+        await rootBundle.loadString('lib/assets/jsons/product.json');
 
     try {
       if (response.isNotEmpty) {
@@ -36,8 +38,22 @@ class Repository {
     }
   }
 
+  Future<User?> loginUser({email, password}) async {
+    final users = await Repository().getAllUsers();
+
+    User? user;
+
+    for (var i = 0; i < users.length; i++) {
+      if (users[i].email == email && users[i].password == password) {
+        user = users[i];
+      }
+    }
+
+    return user;
+  }
+
   Future<List<User>> getAllUsers() async {
-    final response = await rootBundle.loadString('lib/assets/user.json');
+    final response = await rootBundle.loadString('lib/assets/jsons/user.json');
 
     try {
       if (response.isNotEmpty) {
@@ -53,7 +69,7 @@ class Repository {
   }
 
   Future<User> getUserById(int id) async {
-    final response = await rootBundle.loadString('lib/assets/user.json');
+    final response = await rootBundle.loadString('lib/assets/jsons/user.json');
 
     try {
       if (response.isNotEmpty) {

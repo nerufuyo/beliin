@@ -1,4 +1,4 @@
-import 'package:beliin/presentations/screens/authentication_screen.dart';
+import 'package:beliin/presentations/screens/auth/authentication_screen.dart';
 import 'package:beliin/presentations/screens/home_screen.dart';
 import 'package:beliin/presentations/screens/intit/introduction_screen.dart';
 import 'package:beliin/presentations/screens/intit/splash_screen.dart';
